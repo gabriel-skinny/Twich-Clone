@@ -5,3 +5,7 @@ Um clone da plataforma da twich.tv usando ReactJS e Styled-Components
 
   - ReactJS
   - Styled-Components
+  
+## Telas
+
+  <img src="./twichImg.png"></img>
