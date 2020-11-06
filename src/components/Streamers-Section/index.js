@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Streamer from "../../components/Streamer";
+import Streamer from "../Streamer";
 import Games from '../Games';
 
 import { Container, Content } from './styles';

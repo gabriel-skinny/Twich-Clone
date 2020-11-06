@@ -24,13 +24,13 @@ export const Container = styled.div`
 `;
 
 export const Left = styled.ul`
-  width: 530px;
+  width: 30%;
   display: flex;
   align-items: center;
   justify-content: space-around;
 
   li{
-    font-size: 18px;
+    font-size: 120%;
     font-weight: bold;
     
     svg{
@@ -41,7 +41,7 @@ export const Left = styled.ul`
 
 export const Middle = styled.div`
   div.input{
-    width: 500px;
+    width: 100%;
     padding: 10px 15px;
     background: #f5f5f5;
     border: 0;
@@ -60,10 +60,12 @@ export const Middle = styled.div`
 `;
 
 export const Right = styled.ul`
-  width: 350px;
+  width: 20%;
   display: flex;
   align-items: center;
   justify-content: space-around;
+
+  
 
   div.bits{
     background: #f5f5f5;

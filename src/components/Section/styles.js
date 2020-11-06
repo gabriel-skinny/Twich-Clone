@@ -6,7 +6,7 @@ export const Container = styled.div`
 
 export const Carousell = styled.div`
   position: relative;
-  width: 1650px;
+  width: 1550px;
   height: 400px;
   overflow: hidden;
   margin: auto;
@@ -14,6 +14,24 @@ export const Carousell = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+
+  svg{
+    position: absolute;
+    top: 180px;
+    transition: all 0.3s;
+
+    &:hover{
+      background: #ccc
+    }
+    
+    &.left{
+      left: 30px;
+    }
+
+    &.right{
+      right: 60px;
+    }
+  }
 `;
 
 

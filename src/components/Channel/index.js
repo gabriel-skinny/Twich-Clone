@@ -7,7 +7,7 @@ import profileImg from "../../assets/profileImg.png"
 
 function Channel(props) {
   return (
-    <Container className={props.position}>
+    <Container className={props.position} >
       <img className="game" src={livePreview} alt="livePreview"/>
           <Description className={props.position}>
             <Profile>

@@ -8,7 +8,7 @@ function Streamer() {
   return (
     <Container>
       <h3 className="aovivo">AO VIVO</h3>
-      <img class="mainImg" src={livePreview} alt="livePreview"/>
+      <img className="mainImg" src={livePreview} alt="livePreview"/>
       <span>36.900 espectadores</span>
       <Detail>
         <img src={profileImg} alt="profileImg"/>
